@@ -1,0 +1,123 @@
+[
+    {
+      "Picture": "donation_image1.jpg",
+      "Title": "Helping Children in Need",
+      "Category": "Education",
+      "Category_bg": "#FF5733",
+      "Card_bg": "#FCE4EC",
+      "Text_button_bg": "#FF5733",
+      "Description": "Support underprivileged children in their quest for education and a brighter future.",
+      "Price": 25
+    },
+    {
+      "Picture": "donation_image2.jpg",
+      "Title": "Clean Water for All",
+      "Category": "Water",
+      "Category_bg": "#3498DB",
+      "Card_bg": "#EAF2F8",
+      "Text_button_bg": "#3498DB",
+      "Description": "Provide access to clean and safe drinking water to communities in need.",
+      "Price": 30
+    },
+    {
+      "Picture": "donation_image3.jpg",
+      "Title": "Feeding the Hungry",
+      "Category": "Food",
+      "Category_bg": "#F1C40F",
+      "Card_bg": "#FCF3CF",
+      "Text_button_bg": "#F1C40F",
+      "Description": "Help combat hunger by providing nutritious meals to those who are less fortunate.",
+      "Price": 20
+    },
+    {
+      "Picture": "donation_image4.jpg",
+      "Title": "Animal Welfare",
+      "Category": "Animals",
+      "Category_bg": "#27AE60",
+      "Card_bg": "#D5E8D4",
+      "Text_button_bg": "#27AE60",
+      "Description": "Support the welfare and protection of animals in need of care and shelter.",
+      "Price": 35
+    },
+    {
+      "Picture": "donation_image5.jpg",
+      "Title": "Medical Relief",
+      "Category": "Health",
+      "Category_bg": "#E74C3C",
+      "Card_bg": "#F5B7B1",
+      "Text_button_bg": "#E74C3C",
+      "Description": "Contribute to medical supplies and care for those affected by emergencies and disasters.",
+      "Price": 40
+    },
+    {
+      "Picture": "donation_image6.jpg",
+      "Title": "Environmental Conservation",
+      "Category": "Environment",
+      "Category_bg": "#2ECC71",
+      "Card_bg": "#C9E6C8",
+      "Text_button_bg": "#2ECC71",
+      "Description": "Support efforts to protect and preserve our natural environment and wildlife.",
+      "Price": 25
+    },
+    {
+      "Picture": "donation_image7.jpg",
+      "Title": "Empowering Women",
+      "Category": "Women's Rights",
+      "Category_bg": "#D35400",
+      "Card_bg": "#F0B27A",
+      "Text_button_bg": "#D35400",
+      "Description": "Empower women through education, skills development, and economic opportunities.",
+      "Price": 30
+    },
+    {
+      "Picture": "donation_image8.jpg",
+      "Title": "Homeless Shelter Support",
+      "Category": "Housing",
+      "Category_bg": "#8E44AD",
+      "Card_bg": "#D2B4DE",
+      "Text_button_bg": "#8E44AD",
+      "Description": "Provide shelter, food, and resources to homeless individuals and families.",
+      "Price": 20
+    },
+    {
+      "Picture": "donation_image9.jpg",
+      "Title": "Arts and Culture",
+      "Category": "Arts",
+      "Category_bg": "#9B59B6",
+      "Card_bg": "#E8DAEF",
+      "Text_button_bg": "#9B59B6",
+      "Description": "Support the arts, cultural heritage, and creative expression in your community.",
+      "Price": 35
+    },
+    {
+      "Picture": "donation_image10.jpg",
+      "Title": "Disaster Relief",
+      "Category": "Emergency",
+      "Category_bg": "#C0392B",
+      "Card_bg": "#F5B7B1",
+      "Text_button_bg": "#C0392B",
+      "Description": "Assist communities affected by natural disasters with immediate relief and recovery efforts.",
+      "Price": 40
+    },
+    {
+      "Picture": "donation_image11.jpg",
+      "Title": "Youth Development",
+      "Category": "Youth",
+      "Category_bg": "#3498DB",
+      "Card_bg": "#EAF2F8",
+      "Text_button_bg": "#3498DB",
+      "Description": "Invest in the future by supporting programs that empower and educate young people.",
+      "Price": 25
+    },
+    {
+      "Picture": "donation_image12.jpg",
+      "Title": "Elderly Care",
+      "Category": "Elderly",
+      "Category_bg": "#D5DBDB",
+      "Card_bg": "#F2F3F4",
+      "Text_button_bg": "#D5DBDB",
+      "Description": "Provide care, companionship, and assistance to elderly individuals in need.",
+      "Price": 30
+    }
+  ]
+  
