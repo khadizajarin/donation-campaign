@@ -12,7 +12,7 @@ const DetailsCard = () => {
 
     const handleDonation = () => {
         saveDonation(parseInt(id));
-        toast('Donated $${Price}');
+        toast(`Donated $${donate.Price}`);
     }
 
     return (

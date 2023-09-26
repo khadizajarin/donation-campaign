@@ -13,6 +13,14 @@ const Donate = ({donate}) => {
         color: btnColor,
     }
 
+    // const handleButtonClick = (filter) => {
+    //     console.log(inputValue);
+    //     if(filter === inputValue){
+    //         const searchResult = appliedJobs.filter (donate => donate.remote_or_onsite === 'Remote')
+    //         setDisplayJobs(searchResult);
+    //     }
+    // };
+
     return (
         <Link to = {`/donate/${id}`}>
             <div className="card card-compact bg-base-100 shadow-xl" style={cardStyle}>
@@ -26,10 +34,9 @@ const Donate = ({donate}) => {
         </Link>
     );
 };
+
 Donate.propTypes = {
-    id: PropTypes.number
+    donate: PropTypes.object.isRequired 
 }
-
-
 
 export default Donate;
