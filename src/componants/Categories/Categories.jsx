@@ -15,11 +15,11 @@ const Categories = () => {
     // }
     return (
         <div className="mt-10">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
-                {
-                    donate.map(donate => <Donate key={donate.id} donate={donate}></Donate>)
-                }
-            </div>
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                    {
+                        donate.map(donate => <Donate key={donate.id} donate={donate}></Donate>)
+                    }
+                </div>
         </div>
     );
 };

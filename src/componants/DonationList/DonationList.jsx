@@ -2,31 +2,25 @@ import { useLoaderData } from "react-router-dom";
 import { getStoredDonation } from "../utilities";
 import { useState, useEffect } from "react";
 
-const DonationList = () => {
-   
-    const donationList = useLoaderData();
 
+const DonationList = () => {
+    const donationList = useLoaderData();
     const [donated, setDonated] = useState([]);
     const [displayDonation, setDisplayDonation] = useState([]);
-
-
-    // const btnColor = donated.Text_button_bg;
-
-    useEffect( () =>{
-        const storeDonateIds = getStoredDonation();
-
-        if ( donationList.length > 0) {
-            const donate =[];
-            for(const id of storeDonateIds){
-                donate.push(donationList.find(donate => donate.id == id))
-
-            }
-            setDonated(donate);
-            setDisplayDonation(donate);
-            console.log(donationList, storeDonateIds, donate, displayDonation);
+  
+    useEffect(() => {
+      const storeDonateIds = getStoredDonation();
+  
+      if (donationList.length > 0) {
+        const donate = [];
+        for (const id of storeDonateIds) {
+          donate.push(donationList.find((donate) => donate.id == id));
         }
-        
-    }, [donationList])
+        setDonated(donate);
+        setDisplayDonation(donate);
+        console.log(donationList, storeDonateIds);
+      }
+    }, [donationList]);
 
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-7xl mx-auto mt-32">
@@ -55,3 +49,5 @@ const DonationList = () => {
 };
 
 export default DonationList;
+export const storeDonateIds = getStoredDonation();
+
