@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className="  navbar bg-base-100 max-w-7xl mx-auto">
             <div className="flex-1">
-                <img src="./../../../public/Resources/Logo.png" alt="" />
+                <img src="https://i.ibb.co/fYWC46v/Logo.png" alt="" />
             </div>
             <div className="">
                 <ul className="md:flex gap-12">

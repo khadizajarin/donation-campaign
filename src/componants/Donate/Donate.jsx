@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom';
 const Donate = ({donate}) => {
     const {id, Picture, Title, Category, Category_bg, Card_bg, Text_button_bg, Description, Price} = donate;
 
-    const cardStyle = {
-        backgroundColor: donate.Card_bg,
-    }
 
     const btnColor = donate.Text_button_bg;
     const buttonStyle = {
@@ -23,7 +20,7 @@ const Donate = ({donate}) => {
 
     return (
         <Link to = {`/donate/${id}`}>
-            <div className="card card-compact bg-base-100 shadow-xl" style={cardStyle}>
+            <div className="card card-compact bg-base-100 shadow-xl" style={{  backgroundColor: donate.Card_bg}}>
                 <figure><img src={Picture} className="w-full h-50%"/></figure>
                 <div className="card-body pl-4">
                     <h2 className="border rounded text-sm bg-white w-20 pl-2" style={buttonStyle}>{donate.Category}</h2>

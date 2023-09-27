@@ -1,14 +1,20 @@
 import { useState } from "react";
 
-const Banner = () => {
+const Banner = ({ onSearchInputChange }) => {
     const [inputValue, setInputValue] = useState();
 
     const handleInputChange = (event) => {
-        setInputValue(event.target.value);
+        const newValue = event.target.value;
+        setInputValue(newValue);
+        // onSearchInputChange(newValue); // Pass the input value to the parent component
+        console.log(newValue);
     };
 
     const handleButtonClick = () => {
         console.log(inputValue);
+        // if ( inputValue === donate.Category){
+        //     set
+        // }
     }
 
     return (
