@@ -4,10 +4,10 @@ import { PieChart, Pie, ResponsiveContainer, Cell } from 'recharts';
 
 const Statistics = () => {
     const donationList = useLoaderData();
-    const totalNumberOfDonations = donationList.length;
+    // const totalNumberOfDonations = donationList.length;
   
     const donatedListToShow = storeDonateIds;
-    const donatedList = donatedListToShow.length;
+    // const donatedList = donatedListToShow.length;
   
   const data = [
     { name: 'Total Donation', value: donationList.length},

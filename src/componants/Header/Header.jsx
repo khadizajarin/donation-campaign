@@ -2,9 +2,12 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     const links = <>
-        <li><NavLink to = "/">Home</NavLink></li>
-        <li><NavLink to = "/donation">Donation</NavLink></li>
-        <li><NavLink to = "/statistics">Statistics</NavLink></li>
+        <li><NavLink to = "/" style={({ isActive }) => ({ 
+                            color: isActive ? '#FF444A' : 'black' })}>Home</NavLink></li>
+        <li><NavLink to = "/donation" style={({ isActive }) => ({ 
+                            color: isActive ? '#FF444A' : 'black' })} >Donation</NavLink></li>
+        <li><NavLink to = "/statistics" style={({ isActive }) => ({ 
+                            color: isActive ? '#FF444A' : 'black' })}>Statistics</NavLink></li>
     </>
     return (
         <div className="  navbar bg-base-100 max-w-7xl mx-auto">
